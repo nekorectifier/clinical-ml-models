@@ -3,8 +3,8 @@
 import numpy as np
 import pandas as pd
 
-np.random.seed(42)
-n = 200
+np.random.seed(424)
+n = 6000
 
 # 基本人口学
 age = np.random.randint(18, 90, size=n)

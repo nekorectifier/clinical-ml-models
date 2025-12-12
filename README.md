@@ -1,7 +1,7 @@
 # Iridium Clinical ML v0.1
 
 ## 简介
-这是一个用于 **临床预测模型自动建模** 的 Python 工具包。  
+这是一个用于 **二分类临床预测模型建模** 的 Python 脚本。  
 目标是帮助科研人员快速完成数据预处理、模型训练、性能评估与解释。
 
 ## 功能
@@ -13,7 +13,7 @@
 
 ## 安装
 ```bash
-git clone https://github.com/yourname/iridium-clinical-ml.git
+git clone https://github.com/nekorectifier/iridium-clinical-ml.git
 cd iridium-clinical-ml
 pip install -r requirements.txt
 ```
@@ -34,8 +34,8 @@ python main.py
 
 # 下一步计划
 
-- [] 支持生存分析（Cox 回归）
+- 支持生存分析（Cox 回归）
 
-- [] 增加校准曲线与 DCA
+- 增加校准曲线与 DCA
 
-- [] 自动生成 Markdown/PDF 报告
+- 自动生成 Markdown/PDF 报告
